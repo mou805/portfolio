@@ -1,0 +1,58 @@
+.mh{
+  height: 100%;
+  width: 100%;
+  margin-left: 350px;
+}
+.mm{
+  border: 8px solid rgb(222, 222, 23);
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+ 
+}
+.mm p {
+  margin-top: 160px;
+  text-align: center;
+  font-size: 30pt;
+  color: goldenrod;
+}
+span{
+  display: block;
+  font-size: 30pt;
+  margin-left: 350px;
+  color: rgb(160, 160, 21);
+}
+#mhmm{
+  float: left;
+}
+#mou{
+  float: left;
+}
+
+@media only screen and (max-width: 600px){
+  #mhmm{
+    float: right;
+    margin-right: 350px;
+  }
+  #mou{
+    float: right;
+    margin-right: 350px;
+
+  }
+  .mm{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+  .mm p {
+    text-align: center;
+    font-size: 10pt;
+    margin-top: 100px;
+  }
+  span {
+    display: block;
+    font-size: 15pt;
+    margin-left: -200px;
+  }
+  
+}

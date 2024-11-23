@@ -1,0 +1,75 @@
+#mm{
+  border: 1px solid;
+  height: 1000px;
+  width: 99%;
+  background: linear-gradient(rgb(255, 225, 105),rgb(192, 219, 255));
+}
+#mh{
+display: flex;
+justify-content: right;    
+}
+#mh a{
+  color: black;
+}
+#mh a:hover{
+  color:green;
+  text-decoration: underline;
+  font-size: x-large;
+}
+h1{
+  font-size: 60pt;
+}
+h2{
+  font-size: 40pt;
+}
+h3{
+  font-size: 25pt;
+}
+span{
+  color: green;
+}
+#mmm li{
+   list-style: none;
+   display: inline-block;
+   font-size: 20pt;
+   padding: 10px;
+ }
+#mmm a{
+color: rgb(61, 159, 61);
+}
+button{
+margin-left: 60px;
+}
+h1{
+  animation-name: hello;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;}
+@keyframes hello {
+  0%{color: blue;}
+  25%{ color: blueviolet;}
+  50%{ color: brown;}
+  75% { color: palegreen;}
+}
+@media only screen and (max-width: 600px){
+  body{
+    font-size: 7pt;
+  }
+  #mm{
+    height: auto;
+    width: auto;
+  }
+  h1{
+  font-size: 30pt;
+}
+h2{
+  font-size: 20pt;
+}
+h3{
+  font-size: 15pt;
+}
+img{
+  height: auto;
+  width: auto;
+}
+
+}
